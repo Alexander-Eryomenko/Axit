@@ -1,0 +1,52 @@
+.section4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 91px 0 130px;
+
+  @media (max-width: 1024px){
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .foto-section4{
+    width: 41%;
+
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.text-setion4{
+  width: 41%;
+
+  @media (max-width: 1024px){
+    margin-bottom: 25px;
+  }
+
+  &__hedline{
+    margin-bottom: 65px;
+    position: relative;
+
+    &:after{
+      content: '';
+      position: absolute;
+      width: 64px;
+      height: 2px;
+      background-color: $orange;
+      left: 0;
+      top: 100%;
+      margin-top: 30px;
+    }
+  }
+
+  &__text{
+    margin-bottom: 32px;
+  }
+
+  @media (max-width: 480px){
+    width: 90%;
+  }
+
+}

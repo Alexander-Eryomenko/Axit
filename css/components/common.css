@@ -1,0 +1,38 @@
+*,
+*:focus,
+*:active {
+  outline: none; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 400 14px/26px 'Open Sans', Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: black; }
+
+.conteiner {
+  width: 1170px;
+  margin: 0 auto; }
+
+.page-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 44px; }
+  .page-title__white {
+    color: #fff; }
+
+h1, h2, h3, h4,
+h5, h6 {
+  margin: 0 0 20px;
+  font-weight: 700; }
+
+ul, ol {
+  list-style: none;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,136 @@
+.section6{
+  padding: 108px 0 97px;
+
+  @media (max-width: 1024px){
+    margin: 0;
+    width: 100%;
+  }
+
+  .hedline-section6{
+    position: relative;
+    margin-bottom: 65px;
+
+    &:after{
+      content: '';
+      position: absolute;
+      width: 64px;
+      height: 2px;
+      top: 100%;
+      left: 50%;
+      margin: 30px -32px 0;
+      background-color: $orange;
+    }
+  }
+  .text-section6{
+    margin-bottom: 83px;
+    text-align: center;
+
+  }
+}
+
+
+.font-size-price1{
+  font-size: 33px;
+  color: $color-white;
+}
+
+.font-size-price2{
+  font-size: 57px;
+  color: $color-white;
+}
+
+.font-size-price3{
+  font-size: 69px;
+  color: $color-white;
+}
+
+.text-under-price{
+  display: block;
+  color: #999999;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+}
+
+.box-for-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @media (max-width: 480px){
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .link-section6-hover:hover .padding-center-box{
+    font-size: 14px;
+    line-height: 30px;
+    transition: linear 0.3s;
+    margin-top: -30px;
+  }
+}
+
+.box-price-width{
+
+  width: 31.18%;
+
+
+  @media (max-width: 480px){
+    margin-bottom: 20px;
+    width: 83.3%;
+  }
+}
+
+.hedline-box-price{
+  background-color: #333;
+  color: $color-white;
+  margin-bottom: 1px;
+  padding: 26px 0;
+  text-align: center;
+}
+
+//.orange-line{
+//  width: 100%;
+//  padding: 3px 0;
+//  background-color: $orange;
+//}
+
+.padding-center-box{
+  display: block;
+  padding: 3px 0;
+  text-align: center;
+  color: $color-white;
+  font-size: 0;
+  line-height: 0;
+  font-weight: 700;
+  margin: 0;
+  width: 100%;
+
+  background-color: $orange;
+}
+
+
+.margin-price{
+  margin-bottom: 31px;
+}
+
+.price{
+  background-color: #333;
+  color: $color-white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.item-about-price{
+  text-align: center;
+  margin: 0;
+
+  &__list-item{
+    background-color: $color-white;
+    padding: 16px 0;
+    margin-bottom: 1px;
+    color: #86878b;
+  }
+}

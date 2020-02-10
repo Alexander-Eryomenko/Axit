@@ -1,0 +1,58 @@
+*,
+*:focus,
+*:active {
+  outline: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font: 400 14px/20px 'Open Sans', Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: $font-color;
+
+}
+
+.conteiner{
+  width: 1100px;
+  margin: 0 auto;
+
+}
+
+h1, h2, h3, h4,
+h5, h6 {
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #212121;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+input{
+  border: none;
+}
+.hedline-releway{
+  font: 300 36px 'Raleway', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button{
+ border: none;
+  outline: none;
+}
+
+p{
+  margin: 0;
+}

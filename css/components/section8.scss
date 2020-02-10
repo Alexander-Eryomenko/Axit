@@ -1,0 +1,58 @@
+.bg-img-section8{
+
+  background: url("../img/bg-section8.jpg") 50% 50%;
+}
+
+.section8 {
+  padding: 57px 0 48px;
+
+  @media (max-width: 1024px){
+    width: 100%;
+  }
+}
+
+.section8-content-box{
+
+  &__hedline{
+    color: $color-white;
+position: relative;
+    margin-bottom: 70px;
+
+    &:after{
+      content: '';
+      width: 64px;
+      height: 2px;
+      position: absolute;
+      background-color: $color-white;
+      top: 100%;
+      left: 50%;
+      margin: 31px -32px 0;
+    }
+  }
+
+    &__text{
+      text-align: center;
+      font-family: 'Raleway', Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      margin-bottom: 37px;
+    }
+
+  &__button-box{
+    text-align: center;
+  }
+
+    &__button{
+      color: $color-white;
+      padding: 14px 34px;
+      border: 2px solid $bg-grey;
+      background: none;
+      cursor: pointer;
+
+      &:hover{
+        color: $orange;
+        border-color: $orange;
+      }
+
+    }
+
+}

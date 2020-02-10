@@ -1,0 +1,177 @@
+.bg-color-grey{
+  background-color: $bg-grey;
+}
+
+.section2{
+  padding: 134px 0 116px;
+
+  @media (max-width: 1024px){
+    margin: 0;
+    width: 100%;
+  }
+
+  .tabs-nav {
+
+    padding-top: 2px;
+  }
+
+  .tabs{
+    display: flex;
+    justify-content: space-between;
+
+
+
+    .tabs-nav{
+
+      @media (max-width: 1024px){
+
+        display: none;
+      }
+
+
+      .tabs-nav-item{
+
+      }
+    }
+
+    .tabs-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @media (max-width: 1024px){
+        justify-content: center;
+      }
+
+      @media (max-width: 480px){
+        display: flex;
+        flex-direction: column;
+      }
+
+
+
+      .tabs-content-box{
+        display: none;
+
+        @media (max-width: 1024px){
+          display: flex;
+        }
+
+        @media (max-width: 480px){
+          margin-bottom: 20px;
+        }
+      }
+
+      .tabs-content-box.active {
+        display: flex;
+      }
+
+    }
+  }
+
+  .tabs-nav-btn{
+    width: 110px;
+    height: 110px;
+    align-items: center;
+    background-color: #333333;
+    color: $color-white;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid #c7c7c7;
+    display: block;
+    cursor: pointer;
+
+
+
+    &:hover{
+      background-color: $orange;
+      transition: linear 0.3s;
+
+    }
+  }
+
+  .tab1{
+    //background-color: $orange;
+  }
+
+  .tab3{
+    border: none;
+
+  }
+  .about-tab-soft{
+      margin-left: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media (max-width: 1024px){
+      margin: 0;
+      width: 99%;
+      align-items: center;
+    }
+
+    &__hedline{
+      color: #000;
+      margin-bottom: 47px;
+
+      @media (max-width: 1024px){
+        text-align: center;
+        line-height: 30px;
+      }
+
+    }
+
+    &__download{
+      padding: 14px 27px;
+      border: none;
+      background-color: #333333;
+      font-size: 15px;
+      font-weight: 600;
+      color: $color-white;
+      cursor: pointer;
+
+      &:hover{
+        background-color: $orange;
+
+        //transition: linear 0.3s;
+      }
+
+      @media (max-width: 1024px){
+        margin: auto;
+      }
+
+    }
+
+    &__text{
+    width: 80%;
+      margin-bottom: 25px;
+
+      @media (max-width: 1024px){
+        text-align: center;
+      }
+
+    }
+
+    &__text2{
+      width: 80%;
+      margin-bottom: 40px;
+
+      @media (max-width: 1024px){
+        text-align: center;
+      }
+    }
+  }
+
+  .city-img-box{
+    width: 85%;
+
+    @media (max-width: 1024px){
+      display: none;
+    }
+
+    &__img-city{
+      width: 100%;
+    }
+  }
+}
+

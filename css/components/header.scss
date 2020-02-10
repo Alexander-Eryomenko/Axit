@@ -1,0 +1,79 @@
+.bg-img-header{
+  background: url("../img/bg-img-header.jpg") 50% 100%;
+}
+
+.header{
+  background-color: #000;
+  margin-bottom: 106px;
+
+  @media (max-width: 1024px){
+    width: 100%;
+  }
+}
+
+.logo-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 0;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+
+  }
+
+  .logo{
+    @media (max-width: 1024px){
+
+      margin-bottom: 20px;
+
+    }
+
+  }
+}
+
+.header-link{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4px;
+
+  @media (max-width: 480px){
+    padding: 0;
+  }
+
+  &__list_item{
+
+    @media (max-width: 480px){
+
+    }
+
+  }
+
+  &__link{
+    margin-left: 51px;
+    color: #a5a5a5;
+
+    @media (max-width: 1024px){
+      font-size: 20px;
+    }
+
+    @media (max-width: 480px){
+      font-size: 18px;
+      margin-left: 30px;
+
+
+
+    }
+
+
+
+    &:hover{
+      color: $color-white;
+    }
+  }
+}
